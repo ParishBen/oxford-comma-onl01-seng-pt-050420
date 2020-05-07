@@ -12,7 +12,7 @@ if array.size ==1
   firstArr.join(",")
   
   firstArr << secondArr.join
-  firstArr.join(" , ")
+  firstArr.join(", ")
 else "garbage"
 end
 end
