@@ -16,3 +16,4 @@ if array.size ==1
 else "garbage"
 end
 end
+oxford_comma(array)
