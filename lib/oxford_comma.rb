@@ -6,7 +6,8 @@ if array.size ==1
   array.join(" and ")
   elsif array.size == 3
   secondArr= array[array.length-1]
-  firstArr= array[0..1]
+  firstArr= array[0..array.length-2]
+  
   firstArr << " and " << secondArr
   firstArr.join(",")
 else "garbage"
