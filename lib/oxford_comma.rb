@@ -8,8 +8,9 @@ if array.size ==1
   secondArr= []
   secondArr << array[array.length-1]
   firstArr= array[0..1]
-  firstArr << " and " << secondArr
   firstArr.join(",")
+  firstArr << " and " << secondArr.join
+  
 else "garbage"
 end
 end
