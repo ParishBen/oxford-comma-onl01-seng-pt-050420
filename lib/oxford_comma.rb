@@ -10,7 +10,7 @@ if array.size ==1
   firstArr= array[0..1]
   firstArr.join(",")
   firstArr << " and " << secondArr.join
-  firstArr.join
+  
 else "garbage"
 end
 end
