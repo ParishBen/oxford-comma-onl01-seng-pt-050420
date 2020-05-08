@@ -13,7 +13,12 @@ if array.size ==1
   
   firstArr << secondArr.join
   firstArr.join(", ")
-else "garbage"
+elsif array.size > 3
+bestArr= []
+secondbestArr= []
+bestArr << array[0..array.length-2]
+bestArr.join(", ")
+secondbestArr << "and " << array[array.length-1]
 end
 end
 oxford_comma(array)
