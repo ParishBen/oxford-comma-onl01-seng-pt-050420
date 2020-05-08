@@ -21,6 +21,5 @@ bestArr.join(", ")
 secondbestArr << "and " << array[array.length-1]
 bestArr << secondbestArr.join
 bestArr.join(", ")
+  end
 end
-end
-oxford_comma(array)
