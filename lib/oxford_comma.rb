@@ -12,13 +12,13 @@ def oxford_comma(array)
     firstArr.join(",")
     firstArr << secondArr.join
     firstArr.join(", ")
-elsif array.size > 3
-  bestArr= []
-  secondbestArr= []
-  bestArr << array[0..array.length-2]
-  bestArr.join(", ")
-  secondbestArr << "and " << array[array.length-1]
-  bestArr << secondbestArr.join
-  bestArr.join(", ")
+  elsif array.size > 3
+    bestArr= []
+    secondbestArr= []
+    bestArr << array[0..array.length-2]
+    bestArr.join(", ")
+    secondbestArr << "and " << array[array.length-1]
+    bestArr << secondbestArr.join
+    bestArr.join(", ")
   end
 end
