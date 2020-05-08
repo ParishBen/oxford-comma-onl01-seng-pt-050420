@@ -16,9 +16,9 @@ elsif array.size > 3
   bestArr= []
   secondbestArr= []
   bestArr << array[0..array.length-2]
-    bestArr.join(", ")
+  bestArr.join(", ")
   secondbestArr << "and " << array[array.length-1]
   bestArr << secondbestArr.join
-bestArr.join(", ")
+  bestArr.join(", ")
   end
 end
