@@ -19,7 +19,7 @@ secondbestArr= []
 bestArr << array[0..array.length-2]
 bestArr.join(", ")
 secondbestArr << "and " << array[array.length-1]
-bestArr << secondbestArr
+bestArr << secondbestArr.join
 bestArr.join(", ")
 end
 end
